@@ -1,0 +1,1950 @@
+{
+  "executed_at": "2026-09-28T06:42:06.663903+00:00",
+  "health": {
+    "status": "ok",
+    "database": "connected",
+    "provider": "deterministic-demo",
+    "marketplace": "mock",
+    "synthetic": true
+  },
+  "request": {
+    "request": "Process BMW alternator OEM DEMO-BMW-ALT-001. Check duplicates, compatibility and recommend a price. Prepare a marketplace listing.",
+    "entities": {
+      "manufacturer": "BMW",
+      "model": "3 Series",
+      "year": 2019,
+      "condition": "good"
+    }
+  },
+  "run_before_approval": {
+    "id": "21430b72-a56d-44ea-a346-297216208007",
+    "user_request": "Process BMW alternator OEM DEMO-BMW-ALT-001. Check duplicates, compatibility and recommend a price. Prepare a marketplace listing.",
+    "status": "awaiting_approval",
+    "started_at": "2026-09-28T06:42:04.092217+00:00",
+    "completed_at": null,
+    "final_response": {
+      "part": {
+        "id": 1,
+        "oem_number": "DEMO-BMW-ALT-001",
+        "category": "alternator",
+        "name": "BMW Alternator",
+        "manufacturer": "BMW",
+        "condition": "good",
+        "source_vehicle_id": 1,
+        "market_reference": 200,
+        "acquisition_cost": 90.0,
+        "model": "3 Series",
+        "year": 2019,
+        "generation": "G20",
+        "evidence": "parts_catalog.json#DEMO-BMW-ALT-001",
+        "synthetic": true
+      },
+      "identification": {
+        "candidate_parts": [
+          {
+            "id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "category": "alternator",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "condition": "good",
+            "source_vehicle_id": 1,
+            "market_reference": 200,
+            "acquisition_cost": 90.0,
+            "model": "3 Series",
+            "year": 2019,
+            "generation": "G20",
+            "evidence": "parts_catalog.json#DEMO-BMW-ALT-001",
+            "synthetic": true
+          }
+        ],
+        "confidence": 1,
+        "missing_information": [],
+        "recommended_next_action": "verify_attributes"
+      },
+      "synthetic": true,
+      "compatibility": {
+        "status": "compatible",
+        "vehicles": [
+          {
+            "manufacturer": "BMW",
+            "model": "3 Series",
+            "year": 2018,
+            "engine": "2.0 petrol demo"
+          },
+          {
+            "manufacturer": "BMW",
+            "model": "3 Series",
+            "year": 2019,
+            "engine": "2.0 petrol demo"
+          },
+          {
+            "manufacturer": "BMW",
+            "model": "3 Series",
+            "year": 2020,
+            "engine": "2.0 petrol demo"
+          }
+        ],
+        "scope": "synthetic catalog only",
+        "missing_information": []
+      },
+      "inventory": {
+        "items": [
+          {
+            "id": 1,
+            "part_id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "STOCK-0001",
+            "quantity": 1,
+            "warehouse_location": "A-01",
+            "status": "available",
+            "asking_price": 200.0,
+            "acquisition_date": "2026-08-14"
+          },
+          {
+            "id": 42,
+            "part_id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "STOCK-BMW-ALT-DUP",
+            "quantity": 1,
+            "warehouse_location": "A-09",
+            "status": "available",
+            "asking_price": 190.0,
+            "acquisition_date": "2026-06-20"
+          }
+        ],
+        "record_count": 2,
+        "available_quantity": 2
+      },
+      "duplicates": {
+        "duplicate_probability": 1,
+        "candidate_records": [
+          {
+            "id": 1,
+            "part_id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "STOCK-0001",
+            "quantity": 1,
+            "warehouse_location": "A-01",
+            "status": "available",
+            "asking_price": 200.0,
+            "acquisition_date": "2026-08-14",
+            "probability": 1,
+            "reasons": [
+              "exact OEM",
+              "same source vehicle"
+            ]
+          },
+          {
+            "id": 41,
+            "part_id": 41,
+            "oem_number": "DEMO-BMW-ALT-002",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "STOCK-0041",
+            "quantity": 1,
+            "warehouse_location": "F-01",
+            "status": "available",
+            "asking_price": 200.0,
+            "acquisition_date": "2026-08-14",
+            "probability": 0.8,
+            "reasons": [
+              "similar description and category",
+              "same source vehicle"
+            ]
+          },
+          {
+            "id": 42,
+            "part_id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "STOCK-BMW-ALT-DUP",
+            "quantity": 1,
+            "warehouse_location": "A-09",
+            "status": "available",
+            "asking_price": 190.0,
+            "acquisition_date": "2026-06-20",
+            "probability": 1,
+            "reasons": [
+              "exact OEM",
+              "same source vehicle"
+            ]
+          }
+        ],
+        "recommended_action": "review_physical_items_before_publishing"
+      },
+      "history": {
+        "sales": [
+          {
+            "id": 1,
+            "sale_price": 180.0,
+            "days_in_inventory": 25,
+            "sold_at": "2026-09-23T06:32:29.448060+00:00"
+          },
+          {
+            "id": 2,
+            "sale_price": 200.0,
+            "days_in_inventory": 35,
+            "sold_at": "2026-09-13T06:32:29.448074+00:00"
+          },
+          {
+            "id": 3,
+            "sale_price": 220.0,
+            "days_in_inventory": 45,
+            "sold_at": "2026-09-03T06:32:29.448074+00:00"
+          }
+        ]
+      },
+      "pricing": {
+        "suggested_price": 180.5,
+        "currency": "EUR",
+        "price_range": {
+          "min": 162.45,
+          "max": 198.55
+        },
+        "factors": [
+          {
+            "name": "base",
+            "value": 200.0,
+            "source": "historical_median"
+          },
+          {
+            "name": "condition",
+            "value": 1.0
+          },
+          {
+            "name": "stock",
+            "value": 0.95
+          },
+          {
+            "name": "age",
+            "value": 0.95
+          },
+          {
+            "name": "margin_floor",
+            "value": 112.5
+          }
+        ],
+        "confidence": 0.85,
+        "history_count": 3
+      },
+      "inventory_draft": {
+        "id": 43,
+        "part_id": 1,
+        "oem_number": "DEMO-BMW-ALT-001",
+        "name": "BMW Alternator",
+        "manufacturer": "BMW",
+        "category": "alternator",
+        "condition": "good",
+        "internal_sku": "DRAFT-CBC4A9AB0336",
+        "quantity": 1,
+        "warehouse_location": "INTAKE-REVIEW",
+        "status": "draft",
+        "asking_price": 180.5,
+        "acquisition_date": "2026-09-28"
+      },
+      "listing": {
+        "listing_id": 4,
+        "title": "BMW Alternator | DEMO-BMW-ALT-001",
+        "description": "Recycled BMW Alternator. OEM: DEMO-BMW-ALT-001. Condition: good. SKU: DRAFT-CBC4A9AB0336. Synthetic demo fitment only; verify physical identification before use. Warranty: not specified.",
+        "price": 180.5,
+        "currency": "EUR",
+        "status": "draft",
+        "facts": {
+          "oem_number": "DEMO-BMW-ALT-001",
+          "condition": "good",
+          "sku": "DRAFT-CBC4A9AB0336",
+          "compatibility": {
+            "status": "compatible",
+            "vehicles": [
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2018,
+                "engine": "2.0 petrol demo"
+              },
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2019,
+                "engine": "2.0 petrol demo"
+              },
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2020,
+                "engine": "2.0 petrol demo"
+              }
+            ],
+            "scope": "synthetic catalog only",
+            "missing_information": []
+          },
+          "synthetic": true,
+          "evidence": [
+            "compatibility.json#DEMO-BMW-ALT-001"
+          ]
+        },
+        "marketing_copy": "Reusable OEM-style component from our synthetic recycling inventory."
+      },
+      "approval_id": 1,
+      "message": "Listing drafted from verified demo facts. Review duplicate candidates and approve separately before mock publication."
+    },
+    "state": {
+      "request": "Process BMW alternator OEM DEMO-BMW-ALT-001. Check duplicates, compatibility and recommend a price. Prepare a marketplace listing.",
+      "intent": "process_part",
+      "known_entities": {
+        "oem_number": "DEMO-BMW-ALT-001",
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "category": "alternator",
+        "condition": "good"
+      },
+      "missing_information": [],
+      "plan": [
+        {
+          "skill": "part-identification",
+          "purpose": "Resolve incomplete part descriptions into evidenced catalog candidates",
+          "tools": [
+            "search_parts_catalog",
+            "lookup_oem"
+          ],
+          "specification": "skills/part-identification/SKILL.md"
+        },
+        {
+          "skill": "compatibility-check",
+          "purpose": "Check fitment using synthetic catalog evidence",
+          "tools": [
+            "check_vehicle_compatibility"
+          ],
+          "specification": "skills/compatibility-check/SKILL.md"
+        },
+        {
+          "skill": "inventory-management",
+          "purpose": "Search current SQL stock and create isolated intake drafts",
+          "tools": [
+            "search_inventory",
+            "get_inventory_item",
+            "create_inventory_draft"
+          ],
+          "specification": "skills/inventory-management/SKILL.md"
+        },
+        {
+          "skill": "duplicate-detection",
+          "purpose": "Find exact and similar inventory records",
+          "tools": [
+            "find_duplicates"
+          ],
+          "specification": "skills/duplicate-detection/SKILL.md"
+        },
+        {
+          "skill": "pricing",
+          "purpose": "Calculate an evidence based selling-price recommendation",
+          "tools": [
+            "get_historical_sales",
+            "calculate_suggested_price"
+          ],
+          "specification": "skills/pricing/SKILL.md"
+        },
+        {
+          "skill": "listing-generation",
+          "purpose": "Prepare a fact-grounded local marketplace draft",
+          "tools": [
+            "generate_listing_draft"
+          ],
+          "specification": "skills/listing-generation/SKILL.md"
+        },
+        {
+          "skill": "marketplace-publishing",
+          "purpose": "Publish reviewed drafts to the local mock marketplace",
+          "tools": [
+            "publish_marketplace_listing"
+          ],
+          "specification": "skills/marketplace-publishing/SKILL.md"
+        }
+      ],
+      "skills": [
+        "part-identification",
+        "compatibility-check",
+        "inventory-management",
+        "duplicate-detection",
+        "pricing",
+        "listing-generation",
+        "marketplace-publishing"
+      ],
+      "completed_steps": [
+        "lookup_oem",
+        "check_vehicle_compatibility",
+        "search_inventory",
+        "find_duplicates",
+        "get_historical_sales",
+        "calculate_suggested_price",
+        "create_inventory_draft",
+        "generate_listing_draft"
+      ],
+      "pending_steps": [
+        "human_approval"
+      ],
+      "tool_results": {
+        "lookup_oem": {
+          "data": {
+            "candidate_parts": [
+              {
+                "id": 1,
+                "oem_number": "DEMO-BMW-ALT-001",
+                "category": "alternator",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "condition": "good",
+                "source_vehicle_id": 1,
+                "market_reference": 200,
+                "acquisition_cost": 90.0,
+                "model": "3 Series",
+                "year": 2019,
+                "generation": "G20",
+                "evidence": "parts_catalog.json#DEMO-BMW-ALT-001",
+                "synthetic": true
+              }
+            ],
+            "confidence": 1,
+            "missing_information": [],
+            "recommended_next_action": "verify_attributes"
+          },
+          "evidence": [
+            "parts_catalog.json#DEMO-BMW-ALT-001"
+          ],
+          "synthetic": true
+        },
+        "check_vehicle_compatibility": {
+          "data": {
+            "status": "compatible",
+            "vehicles": [
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2018,
+                "engine": "2.0 petrol demo"
+              },
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2019,
+                "engine": "2.0 petrol demo"
+              },
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2020,
+                "engine": "2.0 petrol demo"
+              }
+            ],
+            "scope": "synthetic catalog only",
+            "missing_information": []
+          },
+          "evidence": [
+            "compatibility.json#DEMO-BMW-ALT-001"
+          ],
+          "synthetic": true
+        },
+        "search_inventory": {
+          "data": {
+            "items": [
+              {
+                "id": 1,
+                "part_id": 1,
+                "oem_number": "DEMO-BMW-ALT-001",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "category": "alternator",
+                "condition": "good",
+                "internal_sku": "STOCK-0001",
+                "quantity": 1,
+                "warehouse_location": "A-01",
+                "status": "available",
+                "asking_price": 200.0,
+                "acquisition_date": "2026-08-14"
+              },
+              {
+                "id": 42,
+                "part_id": 1,
+                "oem_number": "DEMO-BMW-ALT-001",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "category": "alternator",
+                "condition": "good",
+                "internal_sku": "STOCK-BMW-ALT-DUP",
+                "quantity": 1,
+                "warehouse_location": "A-09",
+                "status": "available",
+                "asking_price": 190.0,
+                "acquisition_date": "2026-06-20"
+              }
+            ],
+            "record_count": 2,
+            "available_quantity": 2
+          },
+          "evidence": [
+            "sql:inventory_items"
+          ],
+          "synthetic": true
+        },
+        "find_duplicates": {
+          "data": {
+            "duplicate_probability": 1,
+            "candidate_records": [
+              {
+                "id": 1,
+                "part_id": 1,
+                "oem_number": "DEMO-BMW-ALT-001",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "category": "alternator",
+                "condition": "good",
+                "internal_sku": "STOCK-0001",
+                "quantity": 1,
+                "warehouse_location": "A-01",
+                "status": "available",
+                "asking_price": 200.0,
+                "acquisition_date": "2026-08-14",
+                "probability": 1,
+                "reasons": [
+                  "exact OEM",
+                  "same source vehicle"
+                ]
+              },
+              {
+                "id": 41,
+                "part_id": 41,
+                "oem_number": "DEMO-BMW-ALT-002",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "category": "alternator",
+                "condition": "good",
+                "internal_sku": "STOCK-0041",
+                "quantity": 1,
+                "warehouse_location": "F-01",
+                "status": "available",
+                "asking_price": 200.0,
+                "acquisition_date": "2026-08-14",
+                "probability": 0.8,
+                "reasons": [
+                  "similar description and category",
+                  "same source vehicle"
+                ]
+              },
+              {
+                "id": 42,
+                "part_id": 1,
+                "oem_number": "DEMO-BMW-ALT-001",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "category": "alternator",
+                "condition": "good",
+                "internal_sku": "STOCK-BMW-ALT-DUP",
+                "quantity": 1,
+                "warehouse_location": "A-09",
+                "status": "available",
+                "asking_price": 190.0,
+                "acquisition_date": "2026-06-20",
+                "probability": 1,
+                "reasons": [
+                  "exact OEM",
+                  "same source vehicle"
+                ]
+              }
+            ],
+            "recommended_action": "review_physical_items_before_publishing"
+          },
+          "evidence": [
+            "sql:inventory_items",
+            "sql:parts"
+          ],
+          "synthetic": true
+        },
+        "get_historical_sales": {
+          "data": {
+            "sales": [
+              {
+                "id": 1,
+                "sale_price": 180.0,
+                "days_in_inventory": 25,
+                "sold_at": "2026-09-23T06:32:29.448060+00:00"
+              },
+              {
+                "id": 2,
+                "sale_price": 200.0,
+                "days_in_inventory": 35,
+                "sold_at": "2026-09-13T06:32:29.448074+00:00"
+              },
+              {
+                "id": 3,
+                "sale_price": 220.0,
+                "days_in_inventory": 45,
+                "sold_at": "2026-09-03T06:32:29.448074+00:00"
+              }
+            ]
+          },
+          "evidence": [
+            "sql:historical_sales?part_id=1"
+          ],
+          "synthetic": true
+        },
+        "calculate_suggested_price": {
+          "data": {
+            "suggested_price": 180.5,
+            "currency": "EUR",
+            "price_range": {
+              "min": 162.45,
+              "max": 198.55
+            },
+            "factors": [
+              {
+                "name": "base",
+                "value": 200.0,
+                "source": "historical_median"
+              },
+              {
+                "name": "condition",
+                "value": 1.0
+              },
+              {
+                "name": "stock",
+                "value": 0.95
+              },
+              {
+                "name": "age",
+                "value": 0.95
+              },
+              {
+                "name": "margin_floor",
+                "value": 112.5
+              }
+            ],
+            "confidence": 0.85,
+            "history_count": 3
+          },
+          "evidence": [
+            "parts_catalog.json#DEMO-BMW-ALT-001",
+            "sql:historical_sales?part_id=1",
+            "sql:inventory_items"
+          ],
+          "synthetic": true
+        },
+        "create_inventory_draft": {
+          "data": {
+            "id": 43,
+            "part_id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "DRAFT-CBC4A9AB0336",
+            "quantity": 1,
+            "warehouse_location": "INTAKE-REVIEW",
+            "status": "draft",
+            "asking_price": 180.5,
+            "acquisition_date": "2026-09-28"
+          },
+          "evidence": [
+            "sql:inventory_items/43"
+          ],
+          "synthetic": true
+        },
+        "generate_listing_draft": {
+          "data": {
+            "listing_id": 4,
+            "title": "BMW Alternator | DEMO-BMW-ALT-001",
+            "description": "Recycled BMW Alternator. OEM: DEMO-BMW-ALT-001. Condition: good. SKU: DRAFT-CBC4A9AB0336. Synthetic demo fitment only; verify physical identification before use. Warranty: not specified.",
+            "price": 180.5,
+            "currency": "EUR",
+            "status": "draft",
+            "facts": {
+              "oem_number": "DEMO-BMW-ALT-001",
+              "condition": "good",
+              "sku": "DRAFT-CBC4A9AB0336",
+              "compatibility": {
+                "status": "compatible",
+                "vehicles": [
+                  {
+                    "manufacturer": "BMW",
+                    "model": "3 Series",
+                    "year": 2018,
+                    "engine": "2.0 petrol demo"
+                  },
+                  {
+                    "manufacturer": "BMW",
+                    "model": "3 Series",
+                    "year": 2019,
+                    "engine": "2.0 petrol demo"
+                  },
+                  {
+                    "manufacturer": "BMW",
+                    "model": "3 Series",
+                    "year": 2020,
+                    "engine": "2.0 petrol demo"
+                  }
+                ],
+                "scope": "synthetic catalog only",
+                "missing_information": []
+              },
+              "synthetic": true,
+              "evidence": [
+                "compatibility.json#DEMO-BMW-ALT-001"
+              ]
+            },
+            "marketing_copy": "Reusable OEM-style component from our synthetic recycling inventory."
+          },
+          "evidence": [
+            "sql:listings/4",
+            "compatibility.json#DEMO-BMW-ALT-001"
+          ],
+          "synthetic": true
+        }
+      },
+      "approval_required": true,
+      "status": "awaiting_approval",
+      "provider": "deterministic-demo",
+      "warnings": []
+    }
+  },
+  "approval": {
+    "id": 1,
+    "agent_run_id": "21430b72-a56d-44ea-a346-297216208007",
+    "action_type": "publish_listing",
+    "payload": {
+      "listing_id": 4,
+      "inventory_item_id": 43,
+      "title": "BMW Alternator | DEMO-BMW-ALT-001",
+      "description": "Recycled BMW Alternator. OEM: DEMO-BMW-ALT-001. Condition: good. SKU: DRAFT-CBC4A9AB0336. Synthetic demo fitment only; verify physical identification before use. Warranty: not specified.",
+      "price": 180.5,
+      "facts": {
+        "oem_number": "DEMO-BMW-ALT-001",
+        "condition": "good",
+        "sku": "DRAFT-CBC4A9AB0336",
+        "compatibility": {
+          "status": "compatible",
+          "vehicles": [
+            {
+              "manufacturer": "BMW",
+              "model": "3 Series",
+              "year": 2018,
+              "engine": "2.0 petrol demo"
+            },
+            {
+              "manufacturer": "BMW",
+              "model": "3 Series",
+              "year": 2019,
+              "engine": "2.0 petrol demo"
+            },
+            {
+              "manufacturer": "BMW",
+              "model": "3 Series",
+              "year": 2020,
+              "engine": "2.0 petrol demo"
+            }
+          ],
+          "scope": "synthetic catalog only",
+          "missing_information": []
+        },
+        "synthetic": true,
+        "evidence": [
+          "compatibility.json#DEMO-BMW-ALT-001"
+        ]
+      },
+      "marketplace": "mock"
+    },
+    "status": "approved",
+    "created_at": "2026-09-28T06:42:04.125173+00:00",
+    "resolved_at": "2026-09-28T06:42:04.161943+00:00",
+    "resolution": {
+      "external_id": "MOCK-000004",
+      "listing_id": 4,
+      "status": "published",
+      "marketplace": "mock"
+    }
+  },
+  "run_after_approval": {
+    "id": "21430b72-a56d-44ea-a346-297216208007",
+    "user_request": "Process BMW alternator OEM DEMO-BMW-ALT-001. Check duplicates, compatibility and recommend a price. Prepare a marketplace listing.",
+    "status": "completed",
+    "started_at": "2026-09-28T06:42:04.092217+00:00",
+    "completed_at": "2026-09-28T06:42:04.166061+00:00",
+    "final_response": {
+      "part": {
+        "id": 1,
+        "oem_number": "DEMO-BMW-ALT-001",
+        "category": "alternator",
+        "name": "BMW Alternator",
+        "manufacturer": "BMW",
+        "condition": "good",
+        "source_vehicle_id": 1,
+        "market_reference": 200,
+        "acquisition_cost": 90.0,
+        "model": "3 Series",
+        "year": 2019,
+        "generation": "G20",
+        "evidence": "parts_catalog.json#DEMO-BMW-ALT-001",
+        "synthetic": true
+      },
+      "identification": {
+        "candidate_parts": [
+          {
+            "id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "category": "alternator",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "condition": "good",
+            "source_vehicle_id": 1,
+            "market_reference": 200,
+            "acquisition_cost": 90.0,
+            "model": "3 Series",
+            "year": 2019,
+            "generation": "G20",
+            "evidence": "parts_catalog.json#DEMO-BMW-ALT-001",
+            "synthetic": true
+          }
+        ],
+        "confidence": 1,
+        "missing_information": [],
+        "recommended_next_action": "verify_attributes"
+      },
+      "synthetic": true,
+      "compatibility": {
+        "status": "compatible",
+        "vehicles": [
+          {
+            "manufacturer": "BMW",
+            "model": "3 Series",
+            "year": 2018,
+            "engine": "2.0 petrol demo"
+          },
+          {
+            "manufacturer": "BMW",
+            "model": "3 Series",
+            "year": 2019,
+            "engine": "2.0 petrol demo"
+          },
+          {
+            "manufacturer": "BMW",
+            "model": "3 Series",
+            "year": 2020,
+            "engine": "2.0 petrol demo"
+          }
+        ],
+        "scope": "synthetic catalog only",
+        "missing_information": []
+      },
+      "inventory": {
+        "items": [
+          {
+            "id": 1,
+            "part_id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "STOCK-0001",
+            "quantity": 1,
+            "warehouse_location": "A-01",
+            "status": "available",
+            "asking_price": 200.0,
+            "acquisition_date": "2026-08-14"
+          },
+          {
+            "id": 42,
+            "part_id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "STOCK-BMW-ALT-DUP",
+            "quantity": 1,
+            "warehouse_location": "A-09",
+            "status": "available",
+            "asking_price": 190.0,
+            "acquisition_date": "2026-06-20"
+          }
+        ],
+        "record_count": 2,
+        "available_quantity": 2
+      },
+      "duplicates": {
+        "duplicate_probability": 1,
+        "candidate_records": [
+          {
+            "id": 1,
+            "part_id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "STOCK-0001",
+            "quantity": 1,
+            "warehouse_location": "A-01",
+            "status": "available",
+            "asking_price": 200.0,
+            "acquisition_date": "2026-08-14",
+            "probability": 1,
+            "reasons": [
+              "exact OEM",
+              "same source vehicle"
+            ]
+          },
+          {
+            "id": 41,
+            "part_id": 41,
+            "oem_number": "DEMO-BMW-ALT-002",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "STOCK-0041",
+            "quantity": 1,
+            "warehouse_location": "F-01",
+            "status": "available",
+            "asking_price": 200.0,
+            "acquisition_date": "2026-08-14",
+            "probability": 0.8,
+            "reasons": [
+              "similar description and category",
+              "same source vehicle"
+            ]
+          },
+          {
+            "id": 42,
+            "part_id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "STOCK-BMW-ALT-DUP",
+            "quantity": 1,
+            "warehouse_location": "A-09",
+            "status": "available",
+            "asking_price": 190.0,
+            "acquisition_date": "2026-06-20",
+            "probability": 1,
+            "reasons": [
+              "exact OEM",
+              "same source vehicle"
+            ]
+          }
+        ],
+        "recommended_action": "review_physical_items_before_publishing"
+      },
+      "history": {
+        "sales": [
+          {
+            "id": 1,
+            "sale_price": 180.0,
+            "days_in_inventory": 25,
+            "sold_at": "2026-09-23T06:32:29.448060+00:00"
+          },
+          {
+            "id": 2,
+            "sale_price": 200.0,
+            "days_in_inventory": 35,
+            "sold_at": "2026-09-13T06:32:29.448074+00:00"
+          },
+          {
+            "id": 3,
+            "sale_price": 220.0,
+            "days_in_inventory": 45,
+            "sold_at": "2026-09-03T06:32:29.448074+00:00"
+          }
+        ]
+      },
+      "pricing": {
+        "suggested_price": 180.5,
+        "currency": "EUR",
+        "price_range": {
+          "min": 162.45,
+          "max": 198.55
+        },
+        "factors": [
+          {
+            "name": "base",
+            "value": 200.0,
+            "source": "historical_median"
+          },
+          {
+            "name": "condition",
+            "value": 1.0
+          },
+          {
+            "name": "stock",
+            "value": 0.95
+          },
+          {
+            "name": "age",
+            "value": 0.95
+          },
+          {
+            "name": "margin_floor",
+            "value": 112.5
+          }
+        ],
+        "confidence": 0.85,
+        "history_count": 3
+      },
+      "inventory_draft": {
+        "id": 43,
+        "part_id": 1,
+        "oem_number": "DEMO-BMW-ALT-001",
+        "name": "BMW Alternator",
+        "manufacturer": "BMW",
+        "category": "alternator",
+        "condition": "good",
+        "internal_sku": "DRAFT-CBC4A9AB0336",
+        "quantity": 1,
+        "warehouse_location": "INTAKE-REVIEW",
+        "status": "draft",
+        "asking_price": 180.5,
+        "acquisition_date": "2026-09-28"
+      },
+      "listing": {
+        "listing_id": 4,
+        "title": "BMW Alternator | DEMO-BMW-ALT-001",
+        "description": "Recycled BMW Alternator. OEM: DEMO-BMW-ALT-001. Condition: good. SKU: DRAFT-CBC4A9AB0336. Synthetic demo fitment only; verify physical identification before use. Warranty: not specified.",
+        "price": 180.5,
+        "currency": "EUR",
+        "status": "draft",
+        "facts": {
+          "oem_number": "DEMO-BMW-ALT-001",
+          "condition": "good",
+          "sku": "DRAFT-CBC4A9AB0336",
+          "compatibility": {
+            "status": "compatible",
+            "vehicles": [
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2018,
+                "engine": "2.0 petrol demo"
+              },
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2019,
+                "engine": "2.0 petrol demo"
+              },
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2020,
+                "engine": "2.0 petrol demo"
+              }
+            ],
+            "scope": "synthetic catalog only",
+            "missing_information": []
+          },
+          "synthetic": true,
+          "evidence": [
+            "compatibility.json#DEMO-BMW-ALT-001"
+          ]
+        },
+        "marketing_copy": "Reusable OEM-style component from our synthetic recycling inventory."
+      },
+      "approval_id": 1,
+      "message": "Listing drafted from verified demo facts. Review duplicate candidates and approve separately before mock publication.",
+      "approval": "approved",
+      "action_result": {
+        "external_id": "MOCK-000004",
+        "listing_id": 4,
+        "status": "published",
+        "marketplace": "mock"
+      }
+    },
+    "state": {
+      "request": "Process BMW alternator OEM DEMO-BMW-ALT-001. Check duplicates, compatibility and recommend a price. Prepare a marketplace listing.",
+      "intent": "process_part",
+      "known_entities": {
+        "oem_number": "DEMO-BMW-ALT-001",
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "category": "alternator",
+        "condition": "good"
+      },
+      "missing_information": [],
+      "plan": [
+        {
+          "skill": "part-identification",
+          "purpose": "Resolve incomplete part descriptions into evidenced catalog candidates",
+          "tools": [
+            "search_parts_catalog",
+            "lookup_oem"
+          ],
+          "specification": "skills/part-identification/SKILL.md"
+        },
+        {
+          "skill": "compatibility-check",
+          "purpose": "Check fitment using synthetic catalog evidence",
+          "tools": [
+            "check_vehicle_compatibility"
+          ],
+          "specification": "skills/compatibility-check/SKILL.md"
+        },
+        {
+          "skill": "inventory-management",
+          "purpose": "Search current SQL stock and create isolated intake drafts",
+          "tools": [
+            "search_inventory",
+            "get_inventory_item",
+            "create_inventory_draft"
+          ],
+          "specification": "skills/inventory-management/SKILL.md"
+        },
+        {
+          "skill": "duplicate-detection",
+          "purpose": "Find exact and similar inventory records",
+          "tools": [
+            "find_duplicates"
+          ],
+          "specification": "skills/duplicate-detection/SKILL.md"
+        },
+        {
+          "skill": "pricing",
+          "purpose": "Calculate an evidence based selling-price recommendation",
+          "tools": [
+            "get_historical_sales",
+            "calculate_suggested_price"
+          ],
+          "specification": "skills/pricing/SKILL.md"
+        },
+        {
+          "skill": "listing-generation",
+          "purpose": "Prepare a fact-grounded local marketplace draft",
+          "tools": [
+            "generate_listing_draft"
+          ],
+          "specification": "skills/listing-generation/SKILL.md"
+        },
+        {
+          "skill": "marketplace-publishing",
+          "purpose": "Publish reviewed drafts to the local mock marketplace",
+          "tools": [
+            "publish_marketplace_listing"
+          ],
+          "specification": "skills/marketplace-publishing/SKILL.md"
+        }
+      ],
+      "skills": [
+        "part-identification",
+        "compatibility-check",
+        "inventory-management",
+        "duplicate-detection",
+        "pricing",
+        "listing-generation",
+        "marketplace-publishing"
+      ],
+      "completed_steps": [
+        "lookup_oem",
+        "check_vehicle_compatibility",
+        "search_inventory",
+        "find_duplicates",
+        "get_historical_sales",
+        "calculate_suggested_price",
+        "create_inventory_draft",
+        "generate_listing_draft",
+        "human_approval"
+      ],
+      "pending_steps": [],
+      "tool_results": {
+        "lookup_oem": {
+          "data": {
+            "candidate_parts": [
+              {
+                "id": 1,
+                "oem_number": "DEMO-BMW-ALT-001",
+                "category": "alternator",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "condition": "good",
+                "source_vehicle_id": 1,
+                "market_reference": 200,
+                "acquisition_cost": 90.0,
+                "model": "3 Series",
+                "year": 2019,
+                "generation": "G20",
+                "evidence": "parts_catalog.json#DEMO-BMW-ALT-001",
+                "synthetic": true
+              }
+            ],
+            "confidence": 1,
+            "missing_information": [],
+            "recommended_next_action": "verify_attributes"
+          },
+          "evidence": [
+            "parts_catalog.json#DEMO-BMW-ALT-001"
+          ],
+          "synthetic": true
+        },
+        "check_vehicle_compatibility": {
+          "data": {
+            "status": "compatible",
+            "vehicles": [
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2018,
+                "engine": "2.0 petrol demo"
+              },
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2019,
+                "engine": "2.0 petrol demo"
+              },
+              {
+                "manufacturer": "BMW",
+                "model": "3 Series",
+                "year": 2020,
+                "engine": "2.0 petrol demo"
+              }
+            ],
+            "scope": "synthetic catalog only",
+            "missing_information": []
+          },
+          "evidence": [
+            "compatibility.json#DEMO-BMW-ALT-001"
+          ],
+          "synthetic": true
+        },
+        "search_inventory": {
+          "data": {
+            "items": [
+              {
+                "id": 1,
+                "part_id": 1,
+                "oem_number": "DEMO-BMW-ALT-001",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "category": "alternator",
+                "condition": "good",
+                "internal_sku": "STOCK-0001",
+                "quantity": 1,
+                "warehouse_location": "A-01",
+                "status": "available",
+                "asking_price": 200.0,
+                "acquisition_date": "2026-08-14"
+              },
+              {
+                "id": 42,
+                "part_id": 1,
+                "oem_number": "DEMO-BMW-ALT-001",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "category": "alternator",
+                "condition": "good",
+                "internal_sku": "STOCK-BMW-ALT-DUP",
+                "quantity": 1,
+                "warehouse_location": "A-09",
+                "status": "available",
+                "asking_price": 190.0,
+                "acquisition_date": "2026-06-20"
+              }
+            ],
+            "record_count": 2,
+            "available_quantity": 2
+          },
+          "evidence": [
+            "sql:inventory_items"
+          ],
+          "synthetic": true
+        },
+        "find_duplicates": {
+          "data": {
+            "duplicate_probability": 1,
+            "candidate_records": [
+              {
+                "id": 1,
+                "part_id": 1,
+                "oem_number": "DEMO-BMW-ALT-001",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "category": "alternator",
+                "condition": "good",
+                "internal_sku": "STOCK-0001",
+                "quantity": 1,
+                "warehouse_location": "A-01",
+                "status": "available",
+                "asking_price": 200.0,
+                "acquisition_date": "2026-08-14",
+                "probability": 1,
+                "reasons": [
+                  "exact OEM",
+                  "same source vehicle"
+                ]
+              },
+              {
+                "id": 41,
+                "part_id": 41,
+                "oem_number": "DEMO-BMW-ALT-002",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "category": "alternator",
+                "condition": "good",
+                "internal_sku": "STOCK-0041",
+                "quantity": 1,
+                "warehouse_location": "F-01",
+                "status": "available",
+                "asking_price": 200.0,
+                "acquisition_date": "2026-08-14",
+                "probability": 0.8,
+                "reasons": [
+                  "similar description and category",
+                  "same source vehicle"
+                ]
+              },
+              {
+                "id": 42,
+                "part_id": 1,
+                "oem_number": "DEMO-BMW-ALT-001",
+                "name": "BMW Alternator",
+                "manufacturer": "BMW",
+                "category": "alternator",
+                "condition": "good",
+                "internal_sku": "STOCK-BMW-ALT-DUP",
+                "quantity": 1,
+                "warehouse_location": "A-09",
+                "status": "available",
+                "asking_price": 190.0,
+                "acquisition_date": "2026-06-20",
+                "probability": 1,
+                "reasons": [
+                  "exact OEM",
+                  "same source vehicle"
+                ]
+              }
+            ],
+            "recommended_action": "review_physical_items_before_publishing"
+          },
+          "evidence": [
+            "sql:inventory_items",
+            "sql:parts"
+          ],
+          "synthetic": true
+        },
+        "get_historical_sales": {
+          "data": {
+            "sales": [
+              {
+                "id": 1,
+                "sale_price": 180.0,
+                "days_in_inventory": 25,
+                "sold_at": "2026-09-23T06:32:29.448060+00:00"
+              },
+              {
+                "id": 2,
+                "sale_price": 200.0,
+                "days_in_inventory": 35,
+                "sold_at": "2026-09-13T06:32:29.448074+00:00"
+              },
+              {
+                "id": 3,
+                "sale_price": 220.0,
+                "days_in_inventory": 45,
+                "sold_at": "2026-09-03T06:32:29.448074+00:00"
+              }
+            ]
+          },
+          "evidence": [
+            "sql:historical_sales?part_id=1"
+          ],
+          "synthetic": true
+        },
+        "calculate_suggested_price": {
+          "data": {
+            "suggested_price": 180.5,
+            "currency": "EUR",
+            "price_range": {
+              "min": 162.45,
+              "max": 198.55
+            },
+            "factors": [
+              {
+                "name": "base",
+                "value": 200.0,
+                "source": "historical_median"
+              },
+              {
+                "name": "condition",
+                "value": 1.0
+              },
+              {
+                "name": "stock",
+                "value": 0.95
+              },
+              {
+                "name": "age",
+                "value": 0.95
+              },
+              {
+                "name": "margin_floor",
+                "value": 112.5
+              }
+            ],
+            "confidence": 0.85,
+            "history_count": 3
+          },
+          "evidence": [
+            "parts_catalog.json#DEMO-BMW-ALT-001",
+            "sql:historical_sales?part_id=1",
+            "sql:inventory_items"
+          ],
+          "synthetic": true
+        },
+        "create_inventory_draft": {
+          "data": {
+            "id": 43,
+            "part_id": 1,
+            "oem_number": "DEMO-BMW-ALT-001",
+            "name": "BMW Alternator",
+            "manufacturer": "BMW",
+            "category": "alternator",
+            "condition": "good",
+            "internal_sku": "DRAFT-CBC4A9AB0336",
+            "quantity": 1,
+            "warehouse_location": "INTAKE-REVIEW",
+            "status": "draft",
+            "asking_price": 180.5,
+            "acquisition_date": "2026-09-28"
+          },
+          "evidence": [
+            "sql:inventory_items/43"
+          ],
+          "synthetic": true
+        },
+        "generate_listing_draft": {
+          "data": {
+            "listing_id": 4,
+            "title": "BMW Alternator | DEMO-BMW-ALT-001",
+            "description": "Recycled BMW Alternator. OEM: DEMO-BMW-ALT-001. Condition: good. SKU: DRAFT-CBC4A9AB0336. Synthetic demo fitment only; verify physical identification before use. Warranty: not specified.",
+            "price": 180.5,
+            "currency": "EUR",
+            "status": "draft",
+            "facts": {
+              "oem_number": "DEMO-BMW-ALT-001",
+              "condition": "good",
+              "sku": "DRAFT-CBC4A9AB0336",
+              "compatibility": {
+                "status": "compatible",
+                "vehicles": [
+                  {
+                    "manufacturer": "BMW",
+                    "model": "3 Series",
+                    "year": 2018,
+                    "engine": "2.0 petrol demo"
+                  },
+                  {
+                    "manufacturer": "BMW",
+                    "model": "3 Series",
+                    "year": 2019,
+                    "engine": "2.0 petrol demo"
+                  },
+                  {
+                    "manufacturer": "BMW",
+                    "model": "3 Series",
+                    "year": 2020,
+                    "engine": "2.0 petrol demo"
+                  }
+                ],
+                "scope": "synthetic catalog only",
+                "missing_information": []
+              },
+              "synthetic": true,
+              "evidence": [
+                "compatibility.json#DEMO-BMW-ALT-001"
+              ]
+            },
+            "marketing_copy": "Reusable OEM-style component from our synthetic recycling inventory."
+          },
+          "evidence": [
+            "sql:listings/4",
+            "compatibility.json#DEMO-BMW-ALT-001"
+          ],
+          "synthetic": true
+        }
+      },
+      "approval_required": false,
+      "status": "completed",
+      "provider": "deterministic-demo",
+      "warnings": []
+    }
+  },
+  "trace": [
+    {
+      "id": 1,
+      "agent_run_id": "21430b72-a56d-44ea-a346-297216208007",
+      "selected_skill": "part-identification",
+      "tool_name": "lookup_oem",
+      "input": {
+        "oem_number": "DEMO-BMW-ALT-001"
+      },
+      "output": {
+        "data": {
+          "candidate_parts": [
+            {
+              "id": 1,
+              "oem_number": "DEMO-BMW-ALT-001",
+              "category": "alternator",
+              "name": "BMW Alternator",
+              "manufacturer": "BMW",
+              "condition": "good",
+              "source_vehicle_id": 1,
+              "market_reference": 200,
+              "acquisition_cost": 90.0,
+              "model": "3 Series",
+              "year": 2019,
+              "generation": "G20",
+              "evidence": "parts_catalog.json#DEMO-BMW-ALT-001",
+              "synthetic": true
+            }
+          ],
+          "confidence": 1,
+          "missing_information": [],
+          "recommended_next_action": "verify_attributes"
+        },
+        "evidence": [
+          "parts_catalog.json#DEMO-BMW-ALT-001"
+        ],
+        "synthetic": true
+      },
+      "execution_status": "success",
+      "duration": 0.1695079990895465,
+      "summary": "Resolve incomplete part descriptions into evidenced catalog candidates",
+      "error": null
+    },
+    {
+      "id": 2,
+      "agent_run_id": "21430b72-a56d-44ea-a346-297216208007",
+      "selected_skill": "compatibility-check",
+      "tool_name": "check_vehicle_compatibility",
+      "input": {
+        "part_id": 1,
+        "manufacturer": null,
+        "model": null,
+        "year": null
+      },
+      "output": {
+        "data": {
+          "status": "compatible",
+          "vehicles": [
+            {
+              "manufacturer": "BMW",
+              "model": "3 Series",
+              "year": 2018,
+              "engine": "2.0 petrol demo"
+            },
+            {
+              "manufacturer": "BMW",
+              "model": "3 Series",
+              "year": 2019,
+              "engine": "2.0 petrol demo"
+            },
+            {
+              "manufacturer": "BMW",
+              "model": "3 Series",
+              "year": 2020,
+              "engine": "2.0 petrol demo"
+            }
+          ],
+          "scope": "synthetic catalog only",
+          "missing_information": []
+        },
+        "evidence": [
+          "compatibility.json#DEMO-BMW-ALT-001"
+        ],
+        "synthetic": true
+      },
+      "execution_status": "success",
+      "duration": 3.747987007955089,
+      "summary": "Check fitment using synthetic catalog evidence",
+      "error": null
+    },
+    {
+      "id": 3,
+      "agent_run_id": "21430b72-a56d-44ea-a346-297216208007",
+      "selected_skill": "inventory-management",
+      "tool_name": "search_inventory",
+      "input": {
+        "part_id": 1
+      },
+      "output": {
+        "data": {
+          "items": [
+            {
+              "id": 1,
+              "part_id": 1,
+              "oem_number": "DEMO-BMW-ALT-001",
+              "name": "BMW Alternator",
+              "manufacturer": "BMW",
+              "category": "alternator",
+              "condition": "good",
+              "internal_sku": "STOCK-0001",
+              "quantity": 1,
+              "warehouse_location": "A-01",
+              "status": "available",
+              "asking_price": 200.0,
+              "acquisition_date": "2026-08-14"
+            },
+            {
+              "id": 42,
+              "part_id": 1,
+              "oem_number": "DEMO-BMW-ALT-001",
+              "name": "BMW Alternator",
+              "manufacturer": "BMW",
+              "category": "alternator",
+              "condition": "good",
+              "internal_sku": "STOCK-BMW-ALT-DUP",
+              "quantity": 1,
+              "warehouse_location": "A-09",
+              "status": "available",
+              "asking_price": 190.0,
+              "acquisition_date": "2026-06-20"
+            }
+          ],
+          "record_count": 2,
+          "available_quantity": 2
+        },
+        "evidence": [
+          "sql:inventory_items"
+        ],
+        "synthetic": true
+      },
+      "execution_status": "success",
+      "duration": 3.6178800073685125,
+      "summary": "Search current SQL stock and create isolated intake drafts",
+      "error": null
+    },
+    {
+      "id": 4,
+      "agent_run_id": "21430b72-a56d-44ea-a346-297216208007",
+      "selected_skill": "duplicate-detection",
+      "tool_name": "find_duplicates",
+      "input": {
+        "part_id": 1
+      },
+      "output": {
+        "data": {
+          "duplicate_probability": 1,
+          "candidate_records": [
+            {
+              "id": 1,
+              "part_id": 1,
+              "oem_number": "DEMO-BMW-ALT-001",
+              "name": "BMW Alternator",
+              "manufacturer": "BMW",
+              "category": "alternator",
+              "condition": "good",
+              "internal_sku": "STOCK-0001",
+              "quantity": 1,
+              "warehouse_location": "A-01",
+              "status": "available",
+              "asking_price": 200.0,
+              "acquisition_date": "2026-08-14",
+              "probability": 1,
+              "reasons": [
+                "exact OEM",
+                "same source vehicle"
+              ]
+            },
+            {
+              "id": 41,
+              "part_id": 41,
+              "oem_number": "DEMO-BMW-ALT-002",
+              "name": "BMW Alternator",
+              "manufacturer": "BMW",
+              "category": "alternator",
+              "condition": "good",
+              "internal_sku": "STOCK-0041",
+              "quantity": 1,
+              "warehouse_location": "F-01",
+              "status": "available",
+              "asking_price": 200.0,
+              "acquisition_date": "2026-08-14",
+              "probability": 0.8,
+              "reasons": [
+                "similar description and category",
+                "same source vehicle"
+              ]
+            },
+            {
+              "id": 42,
+              "part_id": 1,
+              "oem_number": "DEMO-BMW-ALT-001",
+              "name": "BMW Alternator",
+              "manufacturer": "BMW",
+              "category": "alternator",
+              "condition": "good",
+              "internal_sku": "STOCK-BMW-ALT-DUP",
+              "quantity": 1,
+              "warehouse_location": "A-09",
+              "status": "available",
+              "asking_price": 190.0,
+              "acquisition_date": "2026-06-20",
+              "probability": 1,
+              "reasons": [
+                "exact OEM",
+                "same source vehicle"
+              ]
+            }
+          ],
+          "recommended_action": "review_physical_items_before_publishing"
+        },
+        "evidence": [
+          "sql:inventory_items",
+          "sql:parts"
+        ],
+        "synthetic": true
+      },
+      "execution_status": "success",
+      "duration": 5.40096900658682,
+      "summary": "Find exact and similar inventory records",
+      "error": null
+    },
+    {
+      "id": 5,
+      "agent_run_id": "21430b72-a56d-44ea-a346-297216208007",
+      "selected_skill": "pricing",
+      "tool_name": "get_historical_sales",
+      "input": {
+        "part_id": 1
+      },
+      "output": {
+        "data": {
+          "sales": [
+            {
+              "id": 1,
+              "sale_price": 180.0,
+              "days_in_inventory": 25,
+              "sold_at": "2026-09-23T06:32:29.448060+00:00"
+            },
+            {
+              "id": 2,
+              "sale_price": 200.0,
+              "days_in_inventory": 35,
+              "sold_at": "2026-09-13T06:32:29.448074+00:00"
+            },
+            {
+              "id": 3,
+              "sale_price": 220.0,
+              "days_in_inventory": 45,
+              "sold_at": "2026-09-03T06:32:29.448074+00:00"
+            }
+          ]
+        },
+        "evidence": [
+          "sql:historical_sales?part_id=1"
+        ],
+        "synthetic": true
+      },
+      "execution_status": "success",
+      "duration": 2.277913998113945,
+      "summary": "Calculate an evidence based selling-price recommendation",
+      "error": null
+    },
+    {
+      "id": 6,
+      "agent_run_id": "21430b72-a56d-44ea-a346-297216208007",
+      "selected_skill": "pricing",
+      "tool_name": "calculate_suggested_price",
+      "input": {
+        "part_id": 1,
+        "condition": "good"
+      },
+      "output": {
+        "data": {
+          "suggested_price": 180.5,
+          "currency": "EUR",
+          "price_range": {
+            "min": 162.45,
+            "max": 198.55
+          },
+          "factors": [
+            {
+              "name": "base",
+              "value": 200.0,
+              "source": "historical_median"
+            },
+            {
+              "name": "condition",
+              "value": 1.0
+            },
+            {
+              "name": "stock",
+              "value": 0.95
+            },
+            {
+              "name": "age",
+              "value": 0.95
+            },
+            {
+              "name": "margin_floor",
+              "value": 112.5
+            }
+          ],
+          "confidence": 0.85,
+          "history_count": 3
+        },
+        "evidence": [
+          "parts_catalog.json#DEMO-BMW-ALT-001",
+          "sql:historical_sales?part_id=1",
+          "sql:inventory_items"
+        ],
+        "synthetic": true
+      },
+      "execution_status": "success",
+      "duration": 2.3917189973872155,
+      "summary": "Calculate an evidence based selling-price recommendation",
+      "error": null
+    },
+    {
+      "id": 7,
+      "agent_run_id": "21430b72-a56d-44ea-a346-297216208007",
+      "selected_skill": "inventory-management",
+      "tool_name": "create_inventory_draft",
+      "input": {
+        "part_id": 1,
+        "price": 180.5,
+        "condition": "good"
+      },
+      "output": {
+        "data": {
+          "id": 43,
+          "part_id": 1,
+          "oem_number": "DEMO-BMW-ALT-001",
+          "name": "BMW Alternator",
+          "manufacturer": "BMW",
+          "category": "alternator",
+          "condition": "good",
+          "internal_sku": "DRAFT-CBC4A9AB0336",
+          "quantity": 1,
+          "warehouse_location": "INTAKE-REVIEW",
+          "status": "draft",
+          "asking_price": 180.5,
+          "acquisition_date": "2026-09-28"
+        },
+        "evidence": [
+          "sql:inventory_items/43"
+        ],
+        "synthetic": true
+      },
+      "execution_status": "success",
+      "duration": 4.003498994279653,
+      "summary": "Search current SQL stock and create isolated intake drafts",
+      "error": null
+    },
+    {
+      "id": 8,
+      "agent_run_id": "21430b72-a56d-44ea-a346-297216208007",
+      "selected_skill": "listing-generation",
+      "tool_name": "generate_listing_draft",
+      "input": {
+        "inventory_item_id": 43,
+        "condition": "good"
+      },
+      "output": {
+        "data": {
+          "listing_id": 4,
+          "title": "BMW Alternator | DEMO-BMW-ALT-001",
+          "description": "Recycled BMW Alternator. OEM: DEMO-BMW-ALT-001. Condition: good. SKU: DRAFT-CBC4A9AB0336. Synthetic demo fitment only; verify physical identification before use. Warranty: not specified.",
+          "price": 180.5,
+          "currency": "EUR",
+          "status": "draft",
+          "facts": {
+            "oem_number": "DEMO-BMW-ALT-001",
+            "condition": "good",
+            "sku": "DRAFT-CBC4A9AB0336",
+            "compatibility": {
+              "status": "compatible",
+              "vehicles": [
+                {
+                  "manufacturer": "BMW",
+                  "model": "3 Series",
+                  "year": 2018,
+                  "engine": "2.0 petrol demo"
+                },
+                {
+                  "manufacturer": "BMW",
+                  "model": "3 Series",
+                  "year": 2019,
+                  "engine": "2.0 petrol demo"
+                },
+                {
+                  "manufacturer": "BMW",
+                  "model": "3 Series",
+                  "year": 2020,
+                  "engine": "2.0 petrol demo"
+                }
+              ],
+              "scope": "synthetic catalog only",
+              "missing_information": []
+            },
+            "synthetic": true,
+            "evidence": [
+              "compatibility.json#DEMO-BMW-ALT-001"
+            ]
+          },
+          "marketing_copy": "Reusable OEM-style component from our synthetic recycling inventory."
+        },
+        "evidence": [
+          "sql:listings/4",
+          "compatibility.json#DEMO-BMW-ALT-001"
+        ],
+        "synthetic": true
+      },
+      "execution_status": "success",
+      "duration": 4.737636001664214,
+      "summary": "Prepare a fact-grounded local marketplace draft",
+      "error": null
+    },
+    {
+      "id": 9,
+      "agent_run_id": "21430b72-a56d-44ea-a346-297216208007",
+      "selected_skill": "marketplace-publishing",
+      "tool_name": "publish_marketplace_listing",
+      "input": {
+        "approval_id": 1
+      },
+      "output": {
+        "external_id": "MOCK-000004",
+        "listing_id": 4,
+        "status": "published",
+        "marketplace": "mock"
+      },
+      "execution_status": "success",
+      "duration": 13.553575990954414,
+      "summary": "Employee reviewed the stored action snapshot.",
+      "error": null
+    }
+  ],
+  "concurrent_approval_http_statuses": [
+    200,
+    409
+  ]
+}

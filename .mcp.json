@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "automotive-devpanel": {
+      "command": "uv",
+      "args": ["run", "--with", "mcp<2", "python", "tools/mcp-devpanel/server.py"],
+      "env": {
+        "AUTOMOTIVE_API_BASE_URL": "http://localhost:18000"
+      }
+    }
+  }
+}

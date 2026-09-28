@@ -1,0 +1,49 @@
+name: automotive-operations-agent
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: automotive
+      POSTGRES_USER: automotive
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-local-demo-only}
+    volumes:
+      - automotive_data:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:15432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U automotive -d automotive"]
+      interval: 3s
+      timeout: 3s
+      retries: 20
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://automotive:${POSTGRES_PASSWORD:-local-demo-only}@db:5432/automotive
+      DEMO_MODE: ${DEMO_MODE:-true}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://api.openai.com/v1}
+      LLM_MODEL: ${LLM_MODEL:-}
+      MIN_MARGIN: ${MIN_MARGIN:-0.20}
+      MARKETPLACE_FAIL: ${MARKETPLACE_FAIL:-false}
+    ports:
+      - "127.0.0.1:18000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 5s
+      timeout: 4s
+      retries: 20
+  frontend:
+    build: ./frontend
+    ports:
+      - "127.0.0.1:18080:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+volumes:
+  automotive_data:
+

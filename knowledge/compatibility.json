@@ -1,0 +1,973 @@
+[
+  {
+    "oem_number": "DEMO-BMW-ALT-001",
+    "vehicles": [
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-BMW-ALT-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-BMW-STR-001",
+    "vehicles": [
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-BMW-STR-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-BMW-HL-001",
+    "vehicles": [
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-BMW-HL-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-BMW-ECU-001",
+    "vehicles": [
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-BMW-ECU-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-BMW-TRN-001",
+    "vehicles": [
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-BMW-TRN-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-BMW-MIR-001",
+    "vehicles": [
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-BMW-MIR-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-BMW-INF-001",
+    "vehicles": [
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-BMW-INF-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-BMW-SNS-001",
+    "vehicles": [],
+    "evidence": "compatibility.json#DEMO-BMW-SNS-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-VW-ALT-001",
+    "vehicles": [
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-VW-ALT-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-VW-STR-001",
+    "vehicles": [
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-VW-STR-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-VW-HL-001",
+    "vehicles": [
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-VW-HL-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-VW-ECU-001",
+    "vehicles": [
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-VW-ECU-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-VW-TRN-001",
+    "vehicles": [
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-VW-TRN-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-VW-MIR-001",
+    "vehicles": [
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-VW-MIR-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-VW-INF-001",
+    "vehicles": [
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Volkswagen",
+        "model": "Golf",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-VW-INF-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-VW-SNS-001",
+    "vehicles": [],
+    "evidence": "compatibility.json#DEMO-VW-SNS-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-MB-ALT-001",
+    "vehicles": [
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-MB-ALT-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-MB-STR-001",
+    "vehicles": [
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-MB-STR-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-MB-HL-001",
+    "vehicles": [
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-MB-HL-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-MB-ECU-001",
+    "vehicles": [
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-MB-ECU-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-MB-TRN-001",
+    "vehicles": [
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-MB-TRN-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-MB-MIR-001",
+    "vehicles": [
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-MB-MIR-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-MB-INF-001",
+    "vehicles": [
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-MB-INF-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-MB-SNS-001",
+    "vehicles": [],
+    "evidence": "compatibility.json#DEMO-MB-SNS-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-AUDI-ALT-001",
+    "vehicles": [
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-AUDI-ALT-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-AUDI-STR-001",
+    "vehicles": [
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-AUDI-STR-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-AUDI-HL-001",
+    "vehicles": [
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-AUDI-HL-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-AUDI-ECU-001",
+    "vehicles": [
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-AUDI-ECU-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-AUDI-TRN-001",
+    "vehicles": [
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-AUDI-TRN-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-AUDI-MIR-001",
+    "vehicles": [
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-AUDI-MIR-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-AUDI-INF-001",
+    "vehicles": [
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Audi",
+        "model": "A4",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-AUDI-INF-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-AUDI-SNS-001",
+    "vehicles": [],
+    "evidence": "compatibility.json#DEMO-AUDI-SNS-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-TOYOTA-ALT-001",
+    "vehicles": [
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-TOYOTA-ALT-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-TOYOTA-STR-001",
+    "vehicles": [
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-TOYOTA-STR-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-TOYOTA-HL-001",
+    "vehicles": [
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-TOYOTA-HL-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-TOYOTA-ECU-001",
+    "vehicles": [
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-TOYOTA-ECU-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-TOYOTA-TRN-001",
+    "vehicles": [
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-TOYOTA-TRN-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-TOYOTA-MIR-001",
+    "vehicles": [
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-TOYOTA-MIR-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-TOYOTA-INF-001",
+    "vehicles": [
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-TOYOTA-INF-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-TOYOTA-SNS-001",
+    "vehicles": [],
+    "evidence": "compatibility.json#DEMO-TOYOTA-SNS-001",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  },
+  {
+    "oem_number": "DEMO-BMW-ALT-002",
+    "vehicles": [
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2018,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2019,
+        "engine": "2.0 petrol demo"
+      },
+      {
+        "manufacturer": "BMW",
+        "model": "3 Series",
+        "year": 2020,
+        "engine": "2.0 petrol demo"
+      }
+    ],
+    "evidence": "compatibility.json#DEMO-BMW-ALT-002",
+    "synthetic": true,
+    "coverage": "Listed combinations only; absence is uncertain."
+  }
+]
